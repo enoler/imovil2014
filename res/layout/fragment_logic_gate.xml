@@ -18,22 +18,45 @@
         android:visibility="gone" 
         android:layout_centerHorizontal="true"/>
 
-    <EditText
-        android:id="@+id/edit"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imagelogicgate"
-        android:layout_centerHorizontal="true"
-        android:ems="10"	
-        android:inputType="textNoSuggestions" />
-
     <Button
         android:id="@+id/buttonlogicgate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/edit"
+        android:layout_alignLeft="@+id/imagelogicgate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="59dp"
+        android:text="@string/button_logic_gate"
+        android:width="120dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_logic_gate_solution"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp"
-        android:text="@string/button_logic_gate" />
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="textNoSuggestions" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button_logic_gate_solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonlogicgate"
+        android:layout_alignBottom="@+id/buttonlogicgate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:maxHeight="150dp"
+        android:text="@string/button_logic_gate_solution"
+        android:width="120dp" />
+
+    <ImageView
+        android:id="@+id/image_logic_gate_solution"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/edit"
+        android:layout_alignRight="@+id/imagelogicgate"/>
 
 </RelativeLayout>
