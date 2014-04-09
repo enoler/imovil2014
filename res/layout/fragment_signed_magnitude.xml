@@ -3,11 +3,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_and_magnitude" />
-    
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/question_sign_magnitude" />
+
+    <TextView
+        android:id="@+id/textViewPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewPregunta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/check_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextRespuesta"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="91dp"
+        android:minWidth="120dip"
+        android:text="@string/check_answer"/>
+
+    <Button
+        android:id="@+id/give_solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextRespuesta"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="91dp"
+        android:minWidth="120dip"
+        android:text="@string/solution"/>
+
+    <ImageView
+        android:id="@+id/imageViewCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextRespuesta"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTextRespuesta"
+        android:layout_toRightOf="@+id/editTextRespuesta"/>
+
 </RelativeLayout>

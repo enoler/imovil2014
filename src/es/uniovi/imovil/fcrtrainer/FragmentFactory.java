@@ -45,7 +45,7 @@ final public class FragmentFactory {
 		case R.string.hexadecimal:
 			// TODO: return HexadecimalExerciseFragment.newInstance();
 		case R.string.sign_and_magnitude:
-			SignedMagnitudeExerciseFragment.newInstance();
+			return SignedMagnitudeExerciseFragment.newInstance();
 		case R.string.interpretation:
 			// TODO: 
 			return InterpretationExerciseFragment.newInstance();

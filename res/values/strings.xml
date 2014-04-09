@@ -50,6 +50,7 @@ limitations under the License.
     <string name="error_parsing_highscores">Error al analizar las puntuaciones</string>
     <string name="error_adding_initial_highscores">Error al insertar las puntuaciones iniciales</string>
     <string name="all">Todos</string>
+    <string name="question_sign_magnitude">Convierte el siguiente número representado en signo-magnitud a decimal</string>
     
     <string name="dummy_exercise">Ejercicio</string>   
      
@@ -57,5 +58,8 @@ limitations under the License.
     
     <string name="initial_clock_value">2:00</string>
     <string name="error_no_clock">Error: este ejercicio no está preparado para jugar</string>
+    
+    <string name="check_answer">Comprobar</string>
+    <string name="solution">Solución</string>
 
 </resources>
