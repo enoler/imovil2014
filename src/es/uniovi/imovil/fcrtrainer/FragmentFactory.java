@@ -43,7 +43,7 @@ final public class FragmentFactory {
 		case R.string.binary:
 			return BinaryExerciseFragment.newInstance();
 		case R.string.sign_and_magnitude:
-			// TODO: return SignedMagnitudeExerciseFragment.newInstance();
+			return SignedMagnitudeExerciseFragment.newInstance();
 		case R.string.interpretation:
 			return InterpretationExerciseFragment.newInstance();
 		case R.string.logic_operation:
