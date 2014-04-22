@@ -44,10 +44,17 @@
     <string name="change">Change</string>
 
     <!-- Modulo: Binario -->
-    <string name="check_binary">check</string>
-    <string name="next_binary">next</string>
+    <string name="check_binary">check answer</string>
+    <string name="next_binary">next question</string>
     <string name="title_binary">Binario</string>
     <string name="correct_binary">correct</string>
+
+  	<string name="hint_binary">example: 00000000</string>
+  	<string name="hint_2_binary">example: 64</string>
+  	<string name="solution_binary">show solution</string>
+  	<string name="change_binary">change mode</string>
+	<string name="insert_value_binary">insert value please.</string>
+
   	<string name="binary_hint">ejemplo: 00000000</string>
   	<string name="solution_binary">solución</string>
    
@@ -71,3 +78,4 @@
     <!-- Fin Operaciones Lógicas -->
 
 </resources>
+
