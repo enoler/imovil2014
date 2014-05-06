@@ -102,6 +102,7 @@ public abstract class BaseExerciseFragment extends Fragment {
 		return mDurationMs - (nowMs - mStartMs);
 	}
 
+
 	private final class TimeUpdater implements Runnable {
 		public void run() {
 			mTimerHandler.removeCallbacks(mUpdateTimeTask);
