@@ -159,5 +159,10 @@ limitations under the License.
     <!-- Host count exercise -->
     <string name="host_count_title">Calcula el numero de hosts</string>
     <!-- End Host count exercise -->
+    
+    <!-- Binary Offset -->
+	<string name="convert_to_bin_offset">Convierte a Binario con Offset 128</string>
+	<string name="convert_to_dec_offset">Convierte a Decimal con Offset 128</string>
 
 </resources>
+
