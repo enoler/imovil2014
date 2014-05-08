@@ -100,9 +100,11 @@
   	<string name="host_count_title">Calculate number of hosts</string>
   	<!-- End Host count exercise -->
   	
+
   	<!--  Exceso a Z -->
   	<string name="convert_to_bin_offset">Convert from decimal to binary offset</string>
   	<string name="convert_from_bo_to_dec">Convert from binary offset to decimal</string>
   	
+
 </resources>
 

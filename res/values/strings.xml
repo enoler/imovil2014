@@ -154,9 +154,14 @@ limitations under the License.
   	<string name="convert_to_bin_offset">Convertir de decimal a exceso a Z</string>
   	<string name="convert_from_bo_to_dec">Convertir de exceso a Z a decimal</string>
 
+
+	
+	<string name="convert_to_dec_offset">Convierte a decimal con offset 128</string>
+
 	<!-- Máscara de red -->
     <string name="enunciadomasc">Numero de computadoras en red</string>
 	<string name="solucion">Solucion</string>
     <string name="comprobar">Comprobar</string>
     <!-- Fin Máscara de red -->
+
 </resources>
