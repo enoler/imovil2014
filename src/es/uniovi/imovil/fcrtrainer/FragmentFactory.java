@@ -49,7 +49,6 @@ final public class FragmentFactory {
 			return HexadecimalExerciseFragment.newInstance();
 		case R.string.offset_binary:
 			return BinaryOffsetExerciseFragment.newInstance();
-			//return InterpretationExerciseFragment.newInstance();
 		case R.string.twoscomplement:
 			return TwosComplementExerciseFragment.newInstance();
 		case R.string.cidr:
@@ -64,15 +63,15 @@ final public class FragmentFactory {
 			return HostCountExerciseFragment.newInstance();
 			// TODO: return NetworkMaskExerciseFragment.newInstance();
 		case R.string.sign_and_magnitude:
-			// TODO: return SignedMagnitudeExerciseFragment.newInstance();
+			return SignedMagnitudeExerciseFragment.newInstance();
 		case R.string.floating_point:
 			// TODO: return FloatingPointExerciseFragment.newInstance();
 		case R.string.network_address:
 			// TODO: return NetworAddressExerciseFragment.newInstance();
 		case R.string.network_mask:
-			// TODO: return NetworkMaskExerciseFragment.newInstance();
+			  return NetworkMaskExerciseFragment.newInstance();
 
-			return DummyExerciseFragment.newInstance();
+//			return DummyExerciseFragment.newInstance();
 
 		default:
 			throw new IllegalStateException();

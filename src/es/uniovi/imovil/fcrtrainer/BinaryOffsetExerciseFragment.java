@@ -153,13 +153,20 @@ public class BinaryOffsetExerciseFragment extends BaseExerciseFragment {
 			
 			@Override
 			public void onClick(View v) {
-				
+				if(isNext){
+					btnCheck.setText(R.string.check);
+					isNext = !(isNext);
+				}
 				generateRdmNumber();
 				if(isBinary){
 					title.setText(R.string.convert_to_bin_offset);
 					numberToConvertView.setText(Integer.toString(number));
 				}else{
+
 					title.setText(R.string.convert_to_dec_offset);
+
+					title.setText(R.string.convert_from_bo_to_dec);
+
 					numberToConvertView.setText(Integer.toBinaryString(number));
 				}
 				isBinary = !(isBinary);
