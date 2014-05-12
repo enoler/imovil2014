@@ -1,4 +1,3 @@
-
 /*
 
 Copyright 2014 Profesores y alumnos de la asignatura Inform�tica M�vil de la EPI de Gij�n
@@ -67,7 +66,7 @@ final public class FragmentFactory {
 		case R.string.floating_point:
 			// TODO: return FloatingPointExerciseFragment.newInstance();
 		case R.string.network_address:
-			// TODO: return NetworAddressExerciseFragment.newInstance();
+			return NetworkAddressExerciseFragment.newInstance();
 		case R.string.network_mask:
 			  return NetworkMaskExerciseFragment.newInstance();
 

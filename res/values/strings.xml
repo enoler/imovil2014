@@ -134,6 +134,13 @@ limitations under the License.
     <string name="lost_time_over">Game Over! Se ha acabado el tiempo. Has contestado correctamente %1$d preguntas.</string>
     <!-- Fin Hexadecimal -->
 
+    <!--  Strings Network Address -->
+    <string name="ip_add">Dirección IP:</string>
+    <string name="mask">Máscara:</string>
+    <string name="text_butt_ans">Comprobar</string>
+    <string name="text_butt_solution">Solución</string>
+    <string name="na_title">Ejercicio Dirección Red</string>
+    <!--  Fin Strings Network Address -->
 
     <!-- Modulo: Protocolos -->
     <string name="protocols">Adivina el protocolo</string>

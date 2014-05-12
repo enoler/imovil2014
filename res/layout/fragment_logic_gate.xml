@@ -106,5 +106,4 @@
         android:layout_alignLeft="@+id/text_view_clock"
         android:layout_below="@+id/exercisetitle"
         android:visibility="gone" />
-
 </RelativeLayout>
